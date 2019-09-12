@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 463 417">
+  <defs>
+    <style>
+      .cls-1, .cls-10 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-4 {
+        fill: #ea4335;
+        stroke: #ea4335;
+      }
+
+      .cls-5 {
+        fill: #4285f4;
+        stroke: #4285f4;
+      }
+
+      .cls-6 {
+        fill: #34a853;
+        stroke: #34a853;
+      }
+
+      .cls-7 {
+        fill: #fbbc05;
+        stroke: #fbbc05;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-10, .cls-8 {
+        stroke: #707070;
+      }
+
+      .cls-9 {
+        fill: #707070;
+        font-size: 12px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-11 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="463" height="417"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_2" data-name="Repeat Grid 2" class="cls-2">
+    <g transform="translate(-295 -180)">
+      <g id="Ellipse_17" data-name="Ellipse 17" class="cls-3" transform="translate(348.253 180)">
+        <ellipse class="cls-11" cx="118.867" cy="115.077" rx="118.867" ry="115.077"/>
+        <ellipse class="cls-1" cx="118.867" cy="115.077" rx="118.367" ry="114.577"/>
+      </g>
+      <g id="Ellipse_18" data-name="Ellipse 18" class="cls-4" transform="translate(400.554 354.917)">
+        <ellipse class="cls-11" cx="118.867" cy="115.077" rx="118.867" ry="115.077"/>
+        <ellipse class="cls-1" cx="118.867" cy="115.077" rx="118.367" ry="114.577"/>
+      </g>
+      <g id="Ellipse_19" data-name="Ellipse 19" class="cls-5" transform="translate(467.12 180)">
+        <ellipse class="cls-11" cx="118.867" cy="115.077" rx="118.867" ry="115.077"/>
+        <ellipse class="cls-1" cx="118.867" cy="115.077" rx="118.367" ry="114.577"/>
+      </g>
+      <g id="Ellipse_20" data-name="Ellipse 20" class="cls-6" transform="translate(295 290.474)">
+        <ellipse class="cls-11" cx="118.867" cy="115.077" rx="118.867" ry="115.077"/>
+        <ellipse class="cls-1" cx="118.867" cy="115.077" rx="118.367" ry="114.577"/>
+      </g>
+      <g id="Ellipse_21" data-name="Ellipse 21" class="cls-7" transform="translate(509.912 290.474)">
+        <ellipse class="cls-11" cx="118.867" cy="115.077" rx="118.867" ry="115.077"/>
+        <ellipse class="cls-1" cx="118.867" cy="115.077" rx="118.367" ry="114.577"/>
+      </g>
+      <g id="Ellipse_22" data-name="Ellipse 22" class="cls-8" transform="translate(359 217)">
+        <circle class="cls-11" cx="160" cy="160" r="160"/>
+        <circle class="cls-1" cx="160" cy="160" r="159.5"/>
+      </g>
+      <g id="Rectangle_1" data-name="Rectangle 1" class="cls-8" transform="translate(406 320)">
+        <rect class="cls-11" width="226" height="115"/>
+        <rect class="cls-1" x="0.5" y="0.5" width="225" height="114"/>
+      </g>
+      <text id="Screens" class="cls-9" transform="translate(440 344)"><tspan x="0" y="11">Screens</tspan></text>
+      <g id="Rectangle_2" data-name="Rectangle 2" class="cls-10" transform="translate(401 312)">
+        <rect class="cls-11" width="237" height="133"/>
+        <rect class="cls-1" x="0.5" y="0.5" width="236" height="132"/>
+      </g>
+    </g>
+  </g>
+</svg>
