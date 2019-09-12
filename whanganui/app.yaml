@@ -1,0 +1,17 @@
+
+runtime: go
+api_version: go1
+
+handlers:
+
+# All URLs are handled by the Go application script
+#- url: /.*
+#  script: _go_app
+
+# If the path is empty, show static index.html file
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /screen
+  static_dir: screen

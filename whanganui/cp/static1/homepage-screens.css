@@ -1,0 +1,861 @@
+.cloud-section-body,
+.cloud-card__body {
+  font-family: Google Sans,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.cloud-section-header__heading {
+  max-width: 720px;
+  overflow-wrap: break-word;
+}
+
+.cloud-section-header__link {
+  padding-top: 60px;
+}
+
+.cloud-section-header__eyebrow + .cloud-section-header__heading {
+  padding-top: 16px;
+}
+
+.cloud-section-body {
+  margin: 0 auto;
+  max-width: 680px;
+  padding: 0 0 24px;
+}
+
+.cloud-hero {
+  padding-bottom: 20px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.cloud-hero__card-container {
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+}
+
+.cloud-hero__card {
+  background: #f1f3f4;
+  height: 100%;
+  min-height: 320px;
+  padding: 20px 24px;
+}
+
+.cloud-hero__card--gcp {
+  background: #FBBC04;
+  background-image: url('/images/home/gcp-bg.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 75%;
+}
+
+.cloud-hero__buttons {
+  margin-top: 12px;
+}
+
+.cloud-button--dark {
+  color: #202124;
+}
+
+#cloud-site .cloud-hero__card .button + .button {
+  margin-left: 12px;
+}
+
+.cloud-hero__card h2 {
+  margin-top: 0;
+  max-width: 320px;
+}
+
+.cloud-hero__gsuite-icons {
+  display: flex;
+  margin-top: 60px;
+}
+
+.cloud-hero__gsuite-icons--icon {
+  margin: 5%;
+  position: relative;
+  width: 25%;
+  z-index: 1;
+}
+
+.cloud-hero__gsuite-icons--icon img {
+  max-width: 100%;
+}
+
+.cloud-hero__gsuite-icons--icon + .cloud-hero__gsuite-icons--icon {
+  margin-left: 12px;
+}
+
+.cloud-hero__gsuite-icons--icon::before {
+  background-color: #fff;
+  border-radius: 50%;
+  content: '';
+  display: block;
+  left: 0;
+  padding-top: 100%;
+  position: absolute;
+  top: 0;
+  transform: scale(1.5);
+  width: 100%;
+  z-index: -1;
+}
+
+.cloud-home-sections {
+  margin-bottom: 100px;
+}
+
+.cloud-home-sections > section {
+  margin-top: 100px;
+}
+
+.cloud-section--reversed {
+  padding: 72px 0 60px;
+}
+
+.cloud-section--centered {
+  text-align: center;
+}
+
+#cloud-site .cloud-section--centered .cloud-section-header__heading {
+  margin: 0 auto;
+  max-width: 524px;
+}
+
+.cloud-section--reversed,
+.cloud-card--reversed,
+#cloud-site .cloud-section--reversed .cloud-section-header__eyebrow,
+#cloud-site .cloud-section--reversed .cloud-section-header__heading,
+#cloud-site .cloud-card--reversed .cloud-card__eyebrow,
+#cloud-site .cloud-card--reversed .cloud-card__heading {
+  color: #fff;
+}
+
+#cloud-site .cloud-card--reversed strong {
+  color: inherit;
+}
+
+.cloud-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cloud-card:hover {
+  z-index: 1;
+}
+
+.cloud-card--center {
+  text-align: center;
+}
+
+.cloud-card--tall {
+  min-height: 480px;
+}
+
+.cloud-card--center .cloud-card__body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cloud-card--center .cloud-card__footer {
+  align-self: center;
+  margin-top: 0;
+}
+
+#cloud-site .cloud-card--center .cloud-card__heading {
+  margin: 0 auto;
+}
+
+.cloud-card__heading {
+  max-width: 360px;
+  padding: 0;
+}
+
+.cloud-card__arrow {
+  margin-top: 8px;
+}
+
+.cloud-card__link {
+  position: static;
+}
+
+.cloud-card__link::after {
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.cloud-card__link--text {
+  color: unset;
+}
+
+.cloud-section-customers__container {
+  background-color: #4285F4;
+}
+
+#cloud-site .cloud-section-customers__container .cloud-section-header {
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.cloud-section-customers__logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 24px auto 36px;
+  padding: 0;
+}
+
+.cloud-section-customers__logos li {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 8px 18px;
+}
+
+.cloud-section-customers__logos .cloud-section-customers__logos__logo--no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.cloud-section-customers__logos img {
+  max-width: none;
+}
+
+.cloud-card--product {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px 32px 48px;
+}
+
+.cloud-card--product:hover {
+  background-size: cover;
+}
+
+.cloud-card--product + .cloud-card--product {
+  margin-top: -1px;
+}
+
+.cloud-card--product .cloud-card__icon {
+  height: 40px;
+  margin-bottom: 12px;
+  padding-top: 0;
+  width: 40px;
+}
+
+.cloud-card--product .cloud-card__heading,
+.cloud-card--product .cloud-card__body {
+  max-width: 320px;
+}
+
+.cloud-card--product .cloud-card__heading {
+  padding-top: 12px;
+}
+
+.cloud-card--product .cloud-card__heading strong {
+  display: block;
+}
+
+.cloud-card--product .cloud-card__body {
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+
+.cloud-card--product .cloud-card__footer {
+  margin-top: 0;
+  padding: 0;
+}
+
+.cloud-card--product:not(.cloud-card--center) .cloud-card__link {
+  margin-top: 36px;
+}
+
+.cloud-card--contact {
+  background-color: #34A853; /* $green-500 */
+  background-image: url('/images/home/contact-bg.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.cloud-section--security {
+  background-image: url(/images/home/security-bg.jpg);
+  background-position: 50% top;
+  background-repeat: no-repeat;
+  background-size: auto 30%;
+  padding-top: 256px;
+}
+
+.cloud-section--security .cloud-section {
+    background-color: #F8F9FA;
+    padding: 72px 32px 60px;
+    margin: 0 -16px;
+}
+
+#cloud-site .cloud-section--security .cloud-section-header {
+  margin-bottom: 24px;
+}
+
+.cloud-security-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 340px;
+  padding: 40px 0 36px;
+}
+
+.cloud-security-badges__badge {
+  align-items: center;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 8px 16px;
+}
+
+.cloud-security-badges__logo {
+  margin: 0 auto;
+  text-align: center;
+  width: 48px;
+}
+
+.cloud-security-badges__logo img {
+  max-height: 52px;
+}
+
+.cloud-security-badges__logo--wide {
+  width: 72px;
+}
+
+.cloud-section-header.cloud-section-header--solutions {
+  padding: 0 36px 36px 0;
+}
+
+.cloud-card--solution {
+  border: 1px solid #eee;
+  height: 100%;
+  padding: 36px;
+  margin: 0 -1px -1px 0;
+}
+
+.cloud-card--solution.cloud-card--product {
+  padding: 24px 36px 40px;
+}
+
+.cloud-card--industry {
+  background-color: #FBBC04;
+  background-image: url('/images/home/industry-bg.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.cloud-card--solution .cloud-card__eyebrow {
+  padding-bottom: 20px;
+}
+
+.cloud-card--solution .cloud-card__icon {
+  height: 72px;
+  margin-bottom: 16px;
+  margin-left: -4px;
+  padding-top: 0;
+  width: 72px;
+}
+
+.cloud-card--solution .cloud-card__link:hover {
+  text-decoration: none;
+}
+
+.cloud-card--solution .cloud-card__link:hover .cloud-card__heading {
+  color: #202124;
+}
+
+.cloud-card--solution .cloud-card__body {
+  flex-grow: 1;
+}
+
+.cloud-card--solution .cloud-card__link {
+  margin-top: 24px;
+}
+
+.cloud-card--story {
+  align-items: flex-end;
+  border: unset;
+  color: unset;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  min-height: 360px;
+  padding: 32px;
+}
+
+.cloud-card--story,
+.cloud-card--story:hover {
+  background-size: cover;
+}
+
+.cloud-card--story .cloud-card__eyebrow {
+  padding-bottom: 32px;
+}
+
+#cloud-site .cloud-card--story:not(.cloud-card--reversed) .cloud-card__eyebrow {
+  color: unset;
+}
+
+@media only screen and (min-width: 600px) {.cloud-section-body,
+  .cloud-card__body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cloud-hero::before,
+  .cloud-hero::after {
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: '';
+    display: block;
+    height: 80%;
+    position: absolute;
+    top: 0;
+    width: 200%;
+    z-index: -1;
+  }
+
+  .cloud-hero::before {
+    background-image: url('/images/home/hero-bg-right.svg');
+    background-position: right 0;
+    right: -378px;
+  }
+
+  .cloud-hero::after {
+    background-image: url('/images/home/hero-bg-left.svg');
+    background-position: left 0;
+    left: -382px;
+  }
+
+  .cloud-hero::before,
+  .cloud-hero::after {
+    height: 80%;
+  }
+
+  .cloud-hero {
+    padding-top: 72px;
+  }
+
+  .cloud-section-header {
+    padding-bottom: 32px;
+  }
+
+  .cloud-section-header__eyebrow + .cloud-section-header__heading {
+    padding-top: 24px;
+  }
+
+  .cloud-section-customers__logos::after {
+    content: '';
+    flex-basis: 100%;
+    order: 1;
+  }
+
+  .cloud-section-customers__logos li {
+    order: 1;
+  }
+
+  .cloud-section-customers__logos li:nth-child(n + 5) {
+    order: 2;
+  }
+
+  .cloud-section-products > .cloud-grid__col:first-child {
+    margin-right: -1px;
+    padding-top: 60px;
+  }
+
+  .cloud-card--product,
+  .cloud-card--story {
+    padding: 40px;
+  }
+
+  .cloud-card--product {
+    min-height: 320px;
+  }
+
+  .cloud-card--product .cloud-card__icon {
+    height: 48px;
+    width: 48px;
+  }
+
+  .cloud-card--tall {
+    min-height: 520px;
+    padding-top: 32px;
+  }
+
+  .cloud-section--security {
+    background-size: auto 80%;
+    padding-top: 412px;
+  }
+
+  .cloud-security-badges {
+    justify-content: center;
+    max-width: none;
+  }
+
+  .cloud-section--security .cloud-section {
+    margin: 0;
+  }
+
+  .cloud-card--story {
+    min-height: 400px;
+  }
+
+  .cloud-card--align-right {
+    justify-content: flex-end;
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cloud-hero::before,
+  .cloud-hero::after {
+    height: 650px;
+  }
+
+  .cloud-hero {
+    padding-top: 80px;
+  }
+
+  .cloud-hero__card {
+    padding: 40px 48px;
+  }
+
+  .cloud-hero__card .cloud-button__set .cloud-button {
+    margin-right: 24px;
+  }
+
+  .cloud-card--tall {
+    min-height: 560px;
+  }
+
+  .cloud-card--product .cloud-card__icon {
+    padding-top: 24px;
+  }
+
+  .cloud-hero__card--gcp {
+    background-size: 60%;
+  }
+
+  .cloud-card--product,
+  .cloud-card--product.cloud-card--solution {
+    padding: 32px 56px 72px;
+  }
+
+  .cloud-card--product .cloud-card__heading {
+    padding-top: 24px;
+  }
+
+  .cloud-security-badges__logo {
+    width: 80px;
+  }
+
+  .cloud-security-badges__logo img{
+    max-height: 58px;
+  }
+
+  .cloud-card--story {
+    margin-bottom: 24px;
+    min-height: 480px;
+    padding: 48px;
+  }
+
+  .cloud-card__arrow {
+    margin-top: 24px;
+  }
+}
+
+#cloud-site .flex {
+  display: flex;
+  justify-content: center;
+}
+
+#cloud-site .flex .c4 {
+  flex-basis: 31.25%;
+}
+
+#hero-supercloud {
+  background: url(/images/home/supercloud-grey.svg) right center no-repeat;
+  height: 291px;
+  position: absolute;
+  right: 0;
+  top: 56px;
+  width: 370px;
+  z-index: -1;
+}
+
+#cloud-site.home .hero {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#cloud-site.home .hero h1 p {
+ font-family: 'Google Sans', Arial, sans-serif;
+}
+
+#cloud-site.home h1.headline {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+#cloud-site.home .hero ul.list li {
+  display: flex;
+}
+
+#cloud-site .home-gallery .border {
+  background-color: #548fe8;
+  height: 2px;
+  margin-bottom: 26px;
+  width: 90px;
+}
+#cloud-site .home-gallery h3 {
+  font: 500 20px/25px Roboto,sans-serif;
+  margin: 0 0 14px 0;
+}
+#cloud-site .home-gallery p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+#cloud-site .home-gallery a {
+  font-size: 14px;
+}
+
+#cloud-site .gcp-customers {
+  margin: auto;
+  max-width: 1060px;
+  text-align: center;
+}
+
+#cloud-site .gcp-customers img {
+  margin: 8px 14px;
+}
+
+#cloud-site .free-trial-banner {
+  align-items: center;
+  background: #498dfc;
+  color: #fff;
+  margin: 26px auto 0;
+  max-width: 1090px;
+  min-height: 170px;
+  padding: 20px 5%;
+}
+
+#cloud-site .free-trial-banner .main {
+  color: #fff;
+  font: normal 22px/25px Roboto;
+  margin-right: 8%;
+}
+
+#cloud-site .free-trial-banner .body {
+  color: #fff;
+  flex: 1;
+  font: lighter 18px/8 Roboto;
+  margin-right: 8%;
+}
+
+#cloud-site .link {
+  font-weight: 500;
+  padding-right: 24px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+#cloud-site .link:before {
+  margin: auto;
+}
+
+#cloud-site .link:after {
+  background-color: #039be5;
+  background-image: url('//www.gstatic.com/images/icons/material/system/1x/arrow_upward_white_24dp.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  content: '';
+  height: 16px;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 7.5px);
+  transform: rotateZ(90deg);
+  width: 16px;
+}
+
+#cloud-site.home .products .compute {
+  background: url('/_static/images/cloud/products/icons/compute.svg') no-repeat 0 0/31px;
+}
+
+#cloud-site.home .products .storage {
+  background: url('/_static/images/cloud/products/icons/storage.svg') no-repeat 0 6px/31px;
+}
+
+#cloud-site.home .products .networking {
+  background: url('/_static/images/cloud/products/icons/networking.svg') no-repeat 0 0/31px;
+}
+
+#cloud-site.home .products .bigdata {
+  background: url('/_static/images/cloud/products/icons/bigdata.svg') no-repeat 0 3px/31px;
+}
+
+#cloud-site.home .products .data-transfer {
+  background: url('/_static/images/cloud/products/icons/data-transfer.svg') no-repeat 0 7px/36px;
+}
+
+#cloud-site.home .products .api-platform {
+  background: url('/_static/images/cloud/products/icons/api-platforms.svg') no-repeat 5px 7px/26px;
+}
+
+#cloud-site.home .products .iot {
+  background: url('/images/products/icons/cloud-iot.svg') no-repeat 0 4px/31px;
+}
+
+#cloud-site.home .products .machinelearning {
+  background: url('/_static/images/cloud/products/icons/machine-learning.svg') no-repeat 0 4px/31px;
+}
+
+#cloud-site.home .products .management {
+  background: url('/_static/images/cloud/products/icons/operations.svg') no-repeat 0 6px/31px;
+}
+
+#cloud-site.home .products .developer {
+  background: url('/_static/images/cloud/products/icons/devtools.svg') no-repeat 0 6px/28px;
+}
+
+#cloud-site.home .products .identity {
+  background: url('/_static/images/cloud/products/icons/security.svg') no-repeat 0 0/26px;
+}
+
+#cloud-site.home .products .professional-services {
+  background: url('/_static/images/cloud/products/icons/professional-services.svg') no-repeat 0 0/26px;
+}
+
+#cloud-site.home .products .productivity-tools {
+  background: url('/_static/images/cloud/products/icons/productivity-tools.svg') no-repeat 0 0/26px;
+}
+
+#cloud-site.home .gcp-products .flex {
+  align-items: flex-start;
+}
+
+#cloud-site.home .products .gcp-product {
+  min-height: 353px;
+}
+
+#cloud-site.home .products .gcp-product p {
+  min-height: 84px;
+}
+
+#cloud-site.home .products .gcp-product li {
+  border: none;
+}
+
+#cloud-site.home .products .gcp-product li a {
+  color: #4a5960;
+  font-size: 16px;
+}
+
+#cloud-site.home .products .gcp-product li a:hover {
+  background: transparent;
+  color: #2b85e7;
+}
+
+#cloud-site.home .products .gcp-product li a.last {
+  background: #ecebec;
+  cursor: pointer;
+  line-height: 35px;
+  margin-left: -24px;
+  margin-top: 24px;
+}
+
+#social-footer a.button-contact-us {
+  color: #039be5;
+}
+
+.cloud-free-trial-button.hidden {
+  display: none;
+}
+
+#cloud-site .google-next-container {
+  align-items: center;
+  display: flex;
+}
+
+#cloud-site .google-next-container .google-next-logo {
+  max-height: 230px;
+}
+
+/* Mobile responsiveness fixes */
+
+@media screen and (max-width: 1200px) {
+  *:not(.code-sample):not(.data-sample):not(.kd-tabbed-horz):not(.kd-tabbed-vert)>*>h2:not(.hide-from-toc):not(#contents):not(#table-of-contents) {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  #hero-supercloud {
+    right: 75px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #cloud-site.home .button.button-cloud {
+    margin: 34px 0 22px;
+  }
+  #cloud-site .free-trial-banner {
+    align-items: initial;
+    flex-direction: column;
+    text-align: center;
+    width: inherit;
+  }
+  #cloud-site .free-trial-banner .main {
+    margin-right: 0;
+  }
+  #cloud-site .free-trial-banner .body {
+    line-height: 4;
+    margin-right: 0;
+  }
+  #cloud-site .free-trial-banner > * {
+    margin: 10px 0;
+  }
+  #cloud-site .free-trial .main {
+    max-width: 565px;
+  }
+
+  #cloud-site.home .gcp-products .flex {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  #cloud-site.home .products .gcp-product {
+    flex-basis: 100%;
+    margin-top: 24px;
+    min-height: auto;
+    width: 100%;
+  }
+
+  #cloud-site .google-next-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  #cloud-site.home h1.headline {
+    font-size: 34px;
+  }
+  #cloud-site.home .products .gcp-product li a.last {
+    margin-left: -12px;
+  }
+  #hero-supercloud {
+    display: none;
+  }
+}
