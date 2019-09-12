@@ -16,7 +16,7 @@ var _Todos = _interopRequireDefault(require("./Todos"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function App() {
-  return _react["default"].createElement(_Todos["default"], null);
+  return _react["default"].createElement(_ScreenValueUpdateForm["default"], null);
 }
 
 var _default = App;
