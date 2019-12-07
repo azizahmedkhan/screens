@@ -22,8 +22,8 @@
     "@babel/preset-react": "*",
     "babel-loader": "*",
     "express": "*",
-    "firebase-admin": "*",
-    "firebase-functions": "*",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.1.0",
     "firebase-tools": "*",
     "nodemon": "*",
     "webpack": "*",
@@ -31,7 +31,10 @@
     "webpack-node-externals": "*"
   },
   "dependencies": {
-    "firebase": "^6.6.0",
+    "firebase": "^6.6.1",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.1.0",
+    "firebase-functions-test": "^0.1.6",
     "isomorphic-fetch": "*",
     "react": "*",
     "react-dom": "*",

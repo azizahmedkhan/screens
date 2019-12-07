@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import FSStorage from '../server/FSStorage';
+
 
 function Todo ({todo, index, completeTodo, removeTodo} ) {
     return (
@@ -33,10 +35,15 @@ function TodoForm({ addTodo }) {
       />
     </form>
   );
+
+  function changeValue() {
+
+  }
 }
 
 function ScreenValueUpdateForm() {
   // Declare a new state variable, which we'll call "count"
+  //console.log(getDivs("Ii5D5QX7RPqFPOrSx76O"))
   const [todos, setTodos] = useState([
       {
           text: 'Learn About React',
@@ -54,6 +61,8 @@ function ScreenValueUpdateForm() {
 
   const addTodo = text => {
     const newTodos = [...todos, { text }];
+    FSStorage.getDivs('Ii5D5QX7RPqFPOrSx76O')
+    console.log("added")
     setTodos(newTodos);
   };
 

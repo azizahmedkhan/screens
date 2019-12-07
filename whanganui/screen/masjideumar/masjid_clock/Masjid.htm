@@ -34,6 +34,15 @@
 
     <body class="bg device-desktop weatherBody" data-device-type="desktop"  data-gr-c-s-loaded="true" style=""
     onload="bodyLoad(0)">
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.2.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 <script>
   dataLayer = [];
 </script>
@@ -84,11 +93,9 @@
                     <div class="forecastItem juma" data-id="2018-06-04" data-situation="rain">
 
                       <div class="forecastDetails" >
-                        <div align = "Center" style="font-size: 90px;"> <br/></div>
+                        <div align = "Center" style="font-size: 90px;"> </div>
                           <div align = "left"> </div>
-                          <br/>
-                          Muḥarram
-
+                              <br/><br/><br/>Safar
                           <div align = "left"></div>
 
 
@@ -129,7 +136,7 @@
                     </g>
                     <style type="text/css">
 
-                    .num { color: #fff; fill="white";}
+                    .num { color: #fff; fill:"white";}
                     </style>
                   </svg>
 
@@ -149,11 +156,11 @@
                     <h3>Juma</h3>
                     <div class="forecastDetails">
                       <p>Bayan </p>
-                      <p><time id ="jumaBayanTime">12:20</time> PM</p>
+                      <p><time id ="jumaBayanTime">01:20</time> PM</p>
                       <p>Athan1 </p>
-                      <p><time id ="jumaAthanTime">12:40</time> PM</p>
+                      <p><time id ="jumaAthanTime">01:40</time> PM</p>
                       <p>Athan2Khutbah </p>
-                      <p><time id ="jumaTime">12:50</time> PM </p>
+                      <p><time id ="jumaTime">01:50</time> PM </p>
                     </div>
                   </div>
               </div>
@@ -168,7 +175,7 @@
                    <div class="forecastDetails">
                      <div class="tempIcon high"></div>
                      <p>
-                       <span><time id ="fajarTime">05:50</time></span>
+                       <span><time id ="fajarTime">05:40</time></span>
                      </p>
 
                    </div>
@@ -179,7 +186,7 @@
                    <div class="forecastDetails">
                      <div class="tempIcon high"></div>
                      <p>
-                       <span><time id ="zohurTime">01:00</time></span>
+                       <span><time id ="zohurTime">02:00</time></span>
                      </p>
                    </div>
                  </div>
@@ -189,7 +196,7 @@
                    <div class="forecastDetails">
                      <div class="tempIcon high"></div>
                      <p>
-                       <span><time id ="asarTime">04:50</time></span>
+                       <span><time id ="asarTime">06:10</time></span>
                      </p>
                    </div>
                  </div>
@@ -199,7 +206,7 @@
                    <div class="forecastDetails">
                      <div class="tempIcon high"></div>
                      <p>
-                       <span><time id ="maghribTime">06:20</time></span>
+                       <span><time id ="maghribTime">07:55</time></span>
                      </p>
                    </div>
                  </div>
@@ -209,7 +216,7 @@
                    <div class="forecastDetails">
                      <div class="tempIcon high"></div>
                      <p>
-                       <span ><timeid ="ishaTime">08:00</time></span>
+                       <span ><time id ="ishaTime">09:40</time></span>
                      </p>
                    </div>
                  </div>

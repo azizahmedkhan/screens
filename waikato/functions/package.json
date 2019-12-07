@@ -1,30 +1,44 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "rr-ssr-gists",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase serve --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "webpack": "node_modules/.bin/webpack",
+    "babel": "node_modules/.bin/babel src/components -d functions/components && node_modules/.bin/babel src/index.js -d functions"
   },
-  "engines": {
-    "node": "8"
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
   },
-  "dependencies": {
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@babel/cli": "*",
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "babel-loader": "*",
+    "express": "*",
     "firebase-admin": "^8.0.0",
     "firebase-functions": "^3.1.0",
+    "firebase-tools": "*",
+    "nodemon": "*",
+    "webpack": "*",
+    "webpack-cli": "^3.3.6",
+    "webpack-node-externals": "*"
+  },
+  "dependencies": {
+    "firebase": "^6.6.1",
+    "firebase-admin": "^8.0.0",
+    "firebase-functions": "^3.1.0",
+    "firebase-functions-test": "^0.1.6",
     "isomorphic-fetch": "*",
     "react": "*",
     "react-dom": "*",
-    "react-router-dom": "*",
-    "express": "*"
-  },
-  "devDependencies": {
-    "eslint": "^5.12.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "firebase-functions-test": "^0.1.6"
-  },
-  "private": true
+    "react-firebaseui": "^4.0.0",
+    "react-router-dom": "*"
+  }
 }

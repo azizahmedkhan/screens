@@ -7,6 +7,10 @@ exports["default"] = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
+var _FSStorage = _interopRequireDefault(require("../server/FSStorage"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
 
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
@@ -72,10 +76,13 @@ function TodoForm(_ref2) {
       return setValue(e.target.value);
     }
   }));
+
+  function changeValue() {}
 }
 
 function ScreenValueUpdateForm() {
   // Declare a new state variable, which we'll call "count"
+  //console.log(getDivs("Ii5D5QX7RPqFPOrSx76O"))
   var _useState3 = (0, _react.useState)([{
     text: 'Learn About React',
     isComplete: false
@@ -94,6 +101,10 @@ function ScreenValueUpdateForm() {
     var newTodos = [].concat(_toConsumableArray(todos), [{
       text: text
     }]);
+
+    _FSStorage["default"].getDivs('Ii5D5QX7RPqFPOrSx76O');
+
+    console.log("added");
     setTodos(newTodos);
   };
 
