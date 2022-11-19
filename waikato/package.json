@@ -27,7 +27,7 @@
     "firebase-tools": "*",
     "nodemon": "*",
     "webpack": "*",
-    "webpack-cli": "^3.3.6",
+    "webpack-cli": "^3.3.12",
     "webpack-node-externals": "*"
   },
   "dependencies": {
